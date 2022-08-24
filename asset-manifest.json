@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/challengeFrontend/static/css/main.478c8273.css",
+    "main.css": "/challengeFrontend/static/css/main.f6524836.css",
     "main.js": "/challengeFrontend/static/js/main.eed7c3c8.js",
     "static/media/backgroundVita.png": "/challengeFrontend/static/media/backgroundVita.6e1932aeffee76ac1f5d.png",
     "static/media/vitalinea-bebible.png": "/challengeFrontend/static/media/vitalinea-bebible.91cea4ba227c2b7a0fe5.png",
@@ -20,11 +20,11 @@
     "static/media/sello-avalado.png": "/challengeFrontend/static/media/sello-avalado.31d50e81be15132d5cc2.png",
     "static/media/logo-danone.png": "/challengeFrontend/static/media/logo-danone.44a47c4a6dd0d8270470.png",
     "index.html": "/challengeFrontend/index.html",
-    "main.478c8273.css.map": "/challengeFrontend/static/css/main.478c8273.css.map",
+    "main.f6524836.css.map": "/challengeFrontend/static/css/main.f6524836.css.map",
     "main.eed7c3c8.js.map": "/challengeFrontend/static/js/main.eed7c3c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.478c8273.css",
+    "static/css/main.f6524836.css",
     "static/js/main.eed7c3c8.js"
   ]
 }
