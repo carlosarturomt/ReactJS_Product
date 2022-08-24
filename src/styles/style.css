@@ -204,6 +204,15 @@ button.arrow {
   z-index: 1;
 }
 
+.border__white {
+  z-index: 0;
+  bottom: -10vh;
+  position: absolute;
+  width: 150vw;
+  transform: rotate(7deg);
+  border-bottom: 12vh solid #ffffff;
+}
+
 .kcal {
   width: 5rem;
   height: 3.6rem;
@@ -273,6 +282,12 @@ button.arrow {
   }
   .m-btn {
     margin-top: -20vh;
+  }
+  .border__white {
+    bottom: -5.2rem;
+    width: 150vw;
+    transform: rotate(3deg);
+    border-bottom: 20vh solid #ffffff;
   }
   .flex-test {
     display: flex;
