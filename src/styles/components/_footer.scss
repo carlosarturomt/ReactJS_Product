@@ -1,0 +1,38 @@
+@import "variables";
+
+footer {
+  margin: 2rem 0;
+  picture {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+
+    .h-3rem {
+      height: 3rem;
+    }
+
+    .h-2rem {
+      height: 2rem;
+    }
+  }
+
+  p {
+    font-size: 0.7rem;
+    padding: 0 1rem 0.1rem;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 550px) {
+  footer {
+    picture {
+      justify-content: space-between;
+    }
+    p {
+      font-size: 1rem;
+      text-align: start;
+      padding-left: 1.5rem;
+    }
+  }
+}

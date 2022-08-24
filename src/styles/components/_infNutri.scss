@@ -1,0 +1,87 @@
+@import "variables";
+
+section.info {
+  position: relative;
+  article {
+    margin: 0 0 2rem 0;
+  }
+  hgroup {
+    width: 100%;
+    margin: 2rem 0 0.5rem 0;
+    h2 {
+      margin-top: 10vh;
+      font-size: 1.25rem;
+      font-weight: lighter;
+      color: $color__violet;
+    }
+    p {
+      font-weight: 500;
+      line-height: 1rem;
+    }
+  }
+
+  table {
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    color: $color__violet;
+    background-color: #fafafa;
+
+    .table {
+      padding-right: 0.5rem;
+      &__left {
+        font-weight: 200;
+        text-align: right;
+      }
+      &__right {
+        padding-left: 0.5rem;
+        font-weight: 200;
+        text-align: left;
+      }
+    }
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+}
+
+
+@media (min-width: 550px) {
+  section.info {
+    margin: 10vh 17.5%;
+    flex-direction: column;
+
+    hgroup {
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        line-height: 1.5rem;
+      }
+    }
+    div {
+      align-items: flex-start;
+
+      .info__left {
+        width: 40%;
+
+      }
+
+      .info__right {
+        width: 60%;
+        margin: 0;
+        padding: 0 0 0 5%;
+        th {
+          font-size: 1.1rem;
+          line-height: 2.5rem;
+        }
+      }
+    }
+
+    .flex {
+      flex-direction: row;
+    }
+  }
+}

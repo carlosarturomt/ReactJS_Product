@@ -1,0 +1,186 @@
+@import "variables";
+
+section {
+  padding: 1rem;
+
+  aside {
+    display: flex;
+    justify-content: center;
+    img {
+      margin-top: 0.5rem;
+      width: 55%;
+    }
+  }
+
+  article {
+    hgroup {
+      justify-content: space-around;
+      font-size: 0.8rem;
+      h4 {
+        width: 25%;
+        font-weight: 200;
+        margin: 0 10px 0 4px;
+        padding: 0.3rem;
+        border-radius: 11.5px;
+        text-align: center;
+        color: $color__dark;
+        border: $color__dark--light 0.5px solid;
+      }
+      .active {
+        border: none;
+        background-color: $color__red--light;
+      }
+    }
+    h2 {
+      margin: 1rem 0;
+      font-size: 1.25rem;
+      font-weight: lighter;
+      color: $color__violet;
+    }
+    p {
+      font-size: 0.85rem;
+    }
+  }
+
+  button {
+    border: none;
+    margin: 1rem 0;
+    padding: 0.8rem;
+    width: 100%;
+    justify-content: center;
+    border-radius: 3px;
+    cursor: pointer;
+    color: $color__light;
+    background-color: $color__violet;
+    &:hover {
+      box-shadow: 0 0 20px $color__violet;
+    }
+  }
+}
+
+button.arrow {
+  margin: 1rem 0 0 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: $color__light;
+  border: 0.8rem solid $color__violet;
+
+  object-fit: cover;
+  background-size: cover;
+  background-image: url(../assets/icons/down-arrow.png);
+  z-index: 1;
+}
+
+.border {
+  &__white {
+    z-index: 0;
+    bottom: -2rem;
+    position: absolute;
+    width: 150vw;
+    transform: rotate(7deg);
+    border-bottom: 8vh solid $color__light;
+  }
+}
+
+.kcal {
+  width: 5rem;
+  height: 3.6rem;
+  margin: 0.75rem;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url(../assets/imgs/100-kcal.png);
+}
+
+.sello {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0.75rem;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url(../assets/imgs/sello-avalado.png);
+}
+
+.flex-test {
+  display: block;
+}
+
+@media (max-width: 350px) {
+  .border {
+    &__white {
+      bottom: -34vh;
+      transform: rotate(7deg);
+    }
+  }
+}
+
+@media (min-width: 550px) {
+  section {
+    display: flex;
+
+    aside {
+    }
+
+    aside.gradiant__left {
+      width: 43%;
+
+      img {
+        margin-top: 3rem;
+        width: 50%;
+      }
+    }
+
+    aside.gradiant__right {
+      width: 50%;
+      height: 50%;
+      padding-top: 13%;
+    }
+
+    article {
+      hgroup {
+        justify-content: flex-start;
+        font-size: 1rem;
+
+        h4 {
+          width: 20%;
+          border-radius: 20px;
+        }
+      }
+      h2 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+
+    button {
+      font-size: 1rem;
+      border: none;
+      margin: 1rem 0;
+      padding: 0.8rem;
+      width: 45%;
+    }
+  }
+
+  .m-btn {
+    margin-top: -20vh;
+  }
+
+  .border {
+    &__white {      
+      bottom: -5.2rem;
+      width: 150vw;
+      transform: rotate(3deg);
+      border-bottom: 20vh solid $color__light;
+    }
+  }
+
+  .flex-test {
+    display: flex;
+  }
+
+  .flex-start {
+    justify-content: flex-start;
+  }
+}

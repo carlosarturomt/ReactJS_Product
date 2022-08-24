@@ -1,0 +1,171 @@
+@import "components/globals";
+@import "components/navVita";
+@import "components/cardPage";
+@import "components/infNutri";
+@import "components/famVita";
+@import "components/footer";
+
+.flex {
+  display: flex;
+  align-items: center;
+  &--jc {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.gradiant {
+  display: block;
+  width: 100%;
+  height: 90vh;
+  background: rgb(249, 230, 230);
+  background: linear-gradient(
+    180deg,
+    rgba(249, 230, 230, 1) 0%,
+    rgba(230, 169, 171, 1) 100%
+  );
+}
+
+.strawberry {
+  &__1 {
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    top: 0;
+    left: calc(50% - 20px);
+    background-size: cover;
+    background-image: url(../assets/imgs/strawberry_2.png);
+  }
+
+  &__2 {
+    position: absolute;
+    width: 230px;
+    height: 125px;
+    top: -10vh;
+    right: calc(80% - 20px);
+    transform: rotate(-50deg);
+    background-size: cover;
+    background-image: url(../assets/imgs/strawberry_5.png);
+  }
+
+  &__3 {
+    position: absolute;
+    width: 230px;
+    height: 210px;
+    top: 64vh;
+    left: calc(85% - 20px);
+    background-size: cover;
+    background-image: url(../assets/imgs/fresas-3.png);
+  }
+
+  &__4 {
+    position: absolute;
+    width: 110px;
+    height: 320px;
+    top: 65vh;
+    left: calc(1% - 20px);
+    background-size: cover;
+    background-image: url(../assets/imgs/fresas-4.png);
+  }
+
+  &__5 {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    top: 25vh;
+    right: calc(108% - 20px);
+    background-size: cover;
+    background-image: url(../assets/imgs/strawberry_5.png);
+  }
+
+  &__6 {
+    position: absolute;
+    width: 140px;
+    height: 230px;
+    top: 25vh;
+    right: calc(-25% - 20px);
+    background-size: cover;
+    background-image: url(../assets/imgs/fresas-6.png);
+  }
+
+  &__7 {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 85vh;
+    right: calc(110% - 20px);
+    background-size: cover;
+    background-image: url(../assets/imgs/fresas-7.png);
+  }
+
+  &__8 {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    top: -30vh;
+    right: calc(0% - 20px);
+    background-size: cover;
+    background-image: url(../assets/imgs/fresas-8.png);
+  }
+
+  &__9 {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: -10vh;
+    right: calc(70% - 20px);
+    background-size: cover;
+    background-image: url(../assets/imgs/fresas-9.png);
+  }
+}
+
+.mt--3 {
+  margin-top: -3rem;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes translate {
+  0% {
+    transform: translate(100px, 100px);
+  }
+}
+
+@keyframes skew {
+  0% {
+    // transform: translate(-100%);
+    transform: skewX(15deg) translateX(-120px);
+  }
+}
+
+@media (max-width: 350px) {
+  .gradiant {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 550px) {
+  .strawberry {
+    &__2 {
+      top: 13vh;
+    }
+    &__3 {
+      top: 110vh;
+      left: calc(80% - 20px);
+    }
+    &__4 {
+      display: none;
+    }
+    &__8 {
+      display: none;
+    }
+    &__9 {
+      top: -60vh;
+      right: calc(90% - 20px);
+    }
+  }
+}
