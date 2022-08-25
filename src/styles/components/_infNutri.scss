@@ -3,7 +3,7 @@
 section.info {
   position: relative;
   article {
-    margin: 0 0 2rem 0;
+    padding: 0 0 2rem 0;
   }
   hgroup {
     width: 100%;
@@ -50,7 +50,7 @@ section.info {
 
 @media (min-width: 550px) {
   section.info {
-    margin: 10vh 17.5%;
+    padding: 10vh 17.5%;
     flex-direction: column;
 
     hgroup {

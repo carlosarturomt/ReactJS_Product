@@ -77,7 +77,8 @@ button.arrow {
     z-index: 0;
     bottom: -10vh;
     position: absolute;
-    width: 99.5vw;
+    width: 101%;
+    left: -2%;
     transform: rotate(7deg);
     border-bottom: 12vh solid $color__light;
   }
@@ -122,7 +123,7 @@ button.arrow {
     }
 
     aside.gradiant__left {
-      width: 43%;
+      width: 40%;
 
       img {
         margin-top: 3rem;
@@ -131,9 +132,10 @@ button.arrow {
     }
 
     aside.gradiant__right {
-      width: 50%;
+      // width: 40%;
+      width: min(100ch, 60%);
       height: 50%;
-      padding-top: 13%;
+      padding-top: 10%;
     }
 
     article {

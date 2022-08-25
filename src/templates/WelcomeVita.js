@@ -53,7 +53,6 @@ const WelcomeVita = () => {
 
       <span className="strawberry__1"></span>
       <span className="strawberry__2"></span>
-
       <span className="strawberry__3"></span>
       <span className="strawberry__4"></span>
     </section>

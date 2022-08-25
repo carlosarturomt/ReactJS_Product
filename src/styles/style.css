@@ -208,7 +208,8 @@ button.arrow {
   z-index: 0;
   bottom: -10vh;
   position: absolute;
-  width: 99.5vw;
+  width: 101%;
+  left: -2%;
   transform: rotate(7deg);
   border-bottom: 12vh solid #ffffff;
 }
@@ -248,16 +249,16 @@ button.arrow {
     display: flex;
   }
   section aside.gradiant__left {
-    width: 43%;
+    width: 40%;
   }
   section aside.gradiant__left img {
     margin-top: 3rem;
     width: 50%;
   }
   section aside.gradiant__right {
-    width: 50%;
+    width: min(100ch, 60%);
     height: 50%;
-    padding-top: 13%;
+    padding-top: 10%;
   }
   section article hgroup {
     justify-content: flex-start;
@@ -300,7 +301,7 @@ section.info {
   position: relative;
 }
 section.info article {
-  margin: 0 0 2rem 0;
+  padding: 0 0 2rem 0;
 }
 section.info hgroup {
   width: 100%;
@@ -342,7 +343,7 @@ section.info .flex {
 
 @media (min-width: 550px) {
   section.info {
-    margin: 10vh 17.5%;
+    padding: 10vh 17.5%;
     flex-direction: column;
   }
   section.info hgroup h2 {
@@ -481,83 +482,84 @@ footer p {
 
 .strawberry__1 {
   position: absolute;
-  width: 450px;
-  height: 200px;
-  top: 0;
-  left: calc(50% - 20px);
+  width: min(75ch, 40%);
+  height: 190px;
+  top: -7vh;
+  left: 60%;
   background-size: cover;
   background-image: url(../assets/imgs/strawberry_2.png);
 }
 .strawberry__2 {
   position: absolute;
-  width: 230px;
+  width: min(75ch, 17%);
   height: 125px;
   top: -10vh;
-  right: calc(80% - 20px);
+  right: 75%;
   transform: rotate(-50deg);
   background-size: cover;
   background-image: url(../assets/imgs/strawberry_5.png);
 }
 .strawberry__3 {
   position: absolute;
-  width: 230px;
-  height: 210px;
-  top: 64vh;
-  left: calc(85% - 20px);
+  width: min(75ch, 16%);
+  height: 200px;
+  top: 65vh;
+  left: 80%;
   background-size: cover;
   background-image: url(../assets/imgs/fresas-3.png);
 }
 .strawberry__4 {
   position: absolute;
-  width: 110px;
+  width: min(75ch, 8%);
   height: 320px;
   top: 65vh;
-  left: calc(1% - 20px);
+  left: 0;
   background-size: cover;
   background-image: url(../assets/imgs/fresas-4.png);
 }
 .strawberry__5 {
   position: absolute;
-  width: 200px;
-  height: 110px;
-  top: 25vh;
-  right: calc(108% - 20px);
+  width: min(75ch, 16%);
+  height: 120px;
+  top: 35vh;
+  left: 0;
   background-size: cover;
   background-image: url(../assets/imgs/strawberry_5.png);
 }
 .strawberry__6 {
   position: absolute;
-  width: 140px;
-  height: 230px;
-  top: 25vh;
-  right: calc(-25% - 20px);
+  width: min(75ch, 11%);
+  height: 240px;
+  top: 20vh;
+  right: 0;
   background-size: cover;
   background-image: url(../assets/imgs/fresas-6.png);
 }
 .strawberry__7 {
   position: absolute;
-  width: 200px;
-  height: 300px;
-  top: 85vh;
-  right: calc(110% - 20px);
+  width: min(75ch, 11%);
+  height: 170px;
+  top: 103vh;
+  left: 0;
   background-size: cover;
   background-image: url(../assets/imgs/fresas-7.png);
+  z-index: 1;
 }
 .strawberry__8 {
   position: absolute;
-  width: 200px;
+  width: min(75ch, 11%);
   height: 400px;
   top: -30vh;
-  right: calc(0% - 20px);
+  right: 0;
   background-size: cover;
   background-image: url(../assets/imgs/fresas-8.png);
 }
 .strawberry__9 {
   position: absolute;
-  width: 200px;
-  height: 300px;
+  width: min(75ch, 15%);
+  height: 180px;
   top: -10vh;
-  right: calc(70% - 20px);
+  left: 15%;
   background-size: cover;
   background-image: url(../assets/imgs/fresas-9.png);
 }
@@ -603,21 +605,35 @@ footer p {
   }
 }
 @media (max-width: 550px) {
+  .strawberry__1 {
+    top: 0;
+  }
   .strawberry__2 {
+    width: min(85ch, 50%);
     top: 13vh;
   }
   .strawberry__3 {
-    top: 110vh;
-    left: calc(80% - 20px);
+    top: 113vh;
+    width: min(75ch, 27%);
+    left: 73%;
   }
   .strawberry__4 {
     display: none;
+  }
+  .strawberry__5 {
+    display: none;
+  }
+  .strawberry__6 {
+    display: none;
+  }
+  .strawberry__7 {
+    top: 60vh;
+    width: min(75ch, 25%);
   }
   .strawberry__8 {
     display: none;
   }
   .strawberry__9 {
-    top: -60vh;
-    right: calc(90% - 20px);
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
