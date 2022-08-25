@@ -412,6 +412,9 @@ section.info .flex {
   font-weight: lighter;
   color: #78246d;
 }
+.family__vita--card picture img {
+  width: 100%;
+}
 .family__vita--card .w-100 {
   width: 100%;
 }

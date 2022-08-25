@@ -1,8 +1,8 @@
 import React from "react";
 import { NavBar } from "../templates/NavBar/NavBar";
 import { WelcomeVita } from "../templates/WelcomeVita";
-import { InfNutri } from "../templates/InfNutri";
-import { FamVita } from "../templates/FamVita";
+import { About } from "../templates/About/About";
+import { Products } from "../templates/Products/Products";
 import { Form } from "../templates/Footer";
 
 import "../styles/style.css";
@@ -16,8 +16,8 @@ function App() {
       </header>
       <main>
         <WelcomeVita/>
-        <InfNutri/>
-        <FamVita />
+        <About/>
+        <Products />
         <Form/>
       </main>
     </div>
