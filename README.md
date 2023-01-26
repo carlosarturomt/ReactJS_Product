@@ -10,7 +10,7 @@ I think that is important say that the design is not my, but I developed all the
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://detexcoco.com/assets/imgs/view)
 
 
 ## Demo
