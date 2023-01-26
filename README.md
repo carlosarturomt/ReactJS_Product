@@ -1,5 +1,6 @@
 
-# ReactJS - Project Vitalinea Danone
+# ![VItalinea](https://carlosarturomt.github.io/ReactJS_Product/static/media/logo.41d0a78f1599de5d4385.png) 
+# 🍓 ReactJS - Project Vitalinea Danone 🍓
 
 This is the result of a challenge using ReactJS and SCSS to learn frontend.
 
@@ -7,8 +8,6 @@ This is the result of a challenge using ReactJS and SCSS to learn frontend.
 ## Appendix
 
 I think that is important say that the design is not my, but I developed all the project in 24 hours or less, I do not remember, but was in two days.
-
-## Screenshots
 
 ![App Screenshot](https://detexcoco.com/assets/imgs/view)
 
